@@ -4,7 +4,7 @@ PV-UAD is a two-stage framework for **Any-Scenario Person Re-Identification (AS-
 
 The model is designed for the **WHU-MARS** benchmark, where RGB, NIR, and TIR observations are captured from both **ground** and **aerial** platforms. Instead of training separate models for different modality or viewpoint pairs, PV-UAD learns a **single unified representation** for retrieval across all scenarios.
 
->  **Research Project:** *PV-UAD: Paired-View Unified Alignment and Discrimination for Any-Scenario Person Re-Identification*
+>  **Research Project:** *PV-UAD: Paired-View Unified Alignment and Discrimination for Any-Scenario Person Re-Identification* (submission pending)
 > **Authors:** Thien-Bao Nguyen, Kim-Hai-Anh Cap, Tien-Dung Mai  
 > University of Information Technology, Vietnam National University Ho Chi Minh City
 
@@ -231,23 +231,6 @@ Recommended documentation to add once the implementation is finalized:
 This README intentionally does not provide unverified commands before the final repository structure and configuration files are fixed.
 
 ---
-
-## Citation
-
-If you use this work, please cite the paper:
-
-```bibtex
-@article{nguyen2026pvuad,
-  title   = {PV-UAD: Paired-View Unified Alignment and Discrimination for Any-Scenario Person Re-Identification},
-  author  = {Nguyen, Thien-Bao and Cap, Kim-Hai-Anh and Mai, Tien-Dung},
-  year    = {2026}
-}
-```
-
-> Update the BibTeX entry with the final venue, pages, DOI, or proceedings information when available.
-
----
-
 ## Acknowledgements
 
 This research was supported by the **VNUHCM-University of Information Technology's Scientific Research Support Fund**.
