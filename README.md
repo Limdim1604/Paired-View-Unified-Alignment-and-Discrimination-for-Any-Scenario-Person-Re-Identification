@@ -4,7 +4,7 @@ PV-UAD is a two-stage framework for **Any-Scenario Person Re-Identification (AS-
 
 The model is designed for the **WHU-MARS** benchmark, where RGB, NIR, and TIR observations are captured from both **ground** and **aerial** platforms. Instead of training separate models for different modality or viewpoint pairs, PV-UAD learns a **single unified representation** for retrieval across all scenarios.
 
->  **Research Project:** *PV-UAD: Paired-View Unified Alignment and Discrimination for Any-Scenario Person Re-Identification* (submission pending)
+>  **Paper:** *PV-UAD: Paired-View Unified Alignment and Discrimination for Any-Scenario Person Re-Identification* (submission pending)
 
 > **Authors:** Thien-Bao Nguyen, Kim-Hai-Anh Cap, Tien-Dung Mai  
 > University of Information Technology, Vietnam National University Ho Chi Minh City
@@ -176,60 +176,6 @@ The standard result uses a single forward pass.
 An optional horizontal-flip TTA setting sums normalized descriptors from the original and flipped images before retrieval.
 
 **No re-ranking is used.**
-
----
-
-## Key Findings
-
-PV-UAD improves the UAD baseline on:
-
-- Full **Any-Scenario Re-ID**
-- **Ground-daytime** retrieval
-- **Aerial → Ground** retrieval
-- **Ground → Aerial** retrieval
-- **NIR → RGB** mAP and mINP
-
-The experiments indicate that **paired-view alignment** and **scenario-aware discrimination** are the primary contributors, while thermal-visible matching remains the main unresolved challenge.
-
----
-
-## Repository Structure
-
-The exact folder structure may vary as the implementation is organized. A typical layout is:
-
-```text
-PV-UAD/
-├── configs/
-├── datasets/
-├── models/
-├── losses/
-├── engine/
-├── utils/
-├── scripts/
-├── README.md
-└── ...
-```
-
-> Update this section to match the final repository structure before release.
-
----
-
-## Usage
-
-Training and evaluation commands should match the final code organization of this repository.
-
-Recommended documentation to add once the implementation is finalized:
-
-```text
-1. Environment setup
-2. WHU-MARS dataset preparation
-3. SwinIR offline preprocessing
-4. Stage-I training
-5. Stage-II refinement
-6. Evaluation on AS-ReID / GD / AG-ReID / VI-ReID
-```
-
-This README intentionally does not provide unverified commands before the final repository structure and configuration files are fixed.
 
 ---
 ## Acknowledgements
